@@ -3,10 +3,10 @@ package GeneticTree;
 import java.io.Serializable;
 
 public class Human implements Serializable {
-    // Характеристика экземпляра класса
+    // Имя человека
     private String name;
 
-    // метод для обращения к имени
+    // Получить имя
     public String getName() {
         return name;
     }
